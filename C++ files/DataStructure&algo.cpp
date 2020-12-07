@@ -65,12 +65,12 @@ int main()
 //Hello World! 
 */
 
-#include <ctype.h>
+//#include <ctype.h>
 #include <iostream>
-#include <math.h>
+//#include <math.h>
 
 using namespace std;
-
+/*
 bool isPrime(float);
 void fibonacci(float);
 float factorial(float);         //also find C(n,r) , P(n,r) and Pascal triangle
@@ -297,4 +297,41 @@ void swap(float &a, float &b)
     b=a-b;
     a=a-b;
     return;
+}
+*/
+
+int main()
+{
+    int count;
+    cout << " Enter the number of elements you want to put in the array. ";
+    cin >> count;
+    long int arr[count];
+    cout << "\n\n\n Enter your array \n\n\n\n";
+    for (int i=0; i!=count; i++)
+        cin >> arr[i];
+    cout << "\n\n\n The array in sorted order. \n\n\n\n";
+    for (int i=0; i!=count-1; i++)
+    {
+        for (int j=i+1; j<=count; j++)
+        {
+            if(arr[i]>arr[j])
+            {
+                arr[i]=arr[i]+arr[j]; 
+                arr[j]=arr[i]-arr[j]; 
+                arr[i]=arr[i]-arr[j]; 
+            }
+            else if (arr[i] == arr[j])
+            {
+                i++;
+                arr[(i)] = arr[(i)] + arr[j];
+                arr[j] = arr[(i)] - arr[j];
+                arr[(i)] = arr[(i)] - arr[j];
+                i--;
+            }
+        }
+    }
+    for (int i = 0; i != count; i++)
+        cout << arr[i]<<" ";
+    cout << endl;
+    return 0;
 }
