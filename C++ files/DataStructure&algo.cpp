@@ -305,7 +305,7 @@ int main()
     int count;
     cout << " Enter the number of elements you want to put in the array. ";
     cin >> count;
-    long int arr[count];
+    long int arr[count]; 
     cout << "\n\n\n Enter your array \n\n\n\n";
     for (int i=0; i!=count; i++)
         cin >> arr[i];
