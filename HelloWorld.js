@@ -8,6 +8,6 @@ function alertbox()
 function promptbox()
     {prompt("Trying my first prompt-box, try typing someting","anything");}
 
-myFunction(){
+function myFunction(){
     confirm("Do you want to continue?");
 }
