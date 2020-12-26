@@ -1,3 +1,4 @@
+console.log("We are learning JAVASCRIPT");
 document.getElementById("hi we are learning js");
 var x = true;
 var y = false;
