@@ -2,9 +2,6 @@
   font-family: Arial, "Franklin Gothic Medium", "Arial Narrow", sans-serif;
   font-size: 24pt;
   font-weight: bold;
-  font-variant: unset;
-  text-shadow: 105%;
-  text-rendering: auto;
   line-height: 110%;
   color: rgb(46, 146, 0);
   width: auto;
@@ -15,4 +12,41 @@
   padding-left: 10px;
   margin: 50px;
   text-align: left;
+  background: url("hello.jpg") top center no-repeat;
 }
+
+a {
+  text-decoration: none;
+  color: rgb(99, 196, 44);
+  font-size: 26pt;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a:hover {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(44, 186, 196);
+  text-decoration: underline;
+}
+
+div {
+  opacity: 80%;
+  width: 50%;
+  align-items: center;
+}
+
+#projectOpen {
+  width: auto;
+  border: dashed 7pt rgb(33, 187, 141);
+  margin: 5%;
+  background: url("hello.jpg") bottom center repeat;
+  padding-left: 10pt;
+}
+
+#projectOpen:hover {
+  background: none;
+  width: auto;
+  border: dashed 7pt rgb(141, 187, 33);
+  margin: 5%;
+  background-color: chartreuse;
+  padding-left: 10pt;
