@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dashicons/dashicons.css">
+    <link rel="stylesheet" href="../devicons-master/css/devicons.min.css">
+    <script src="../jquery/dist/jquery.min.js">
+    </script>
+    <meta name="description" content="A page about you know what.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $("document").ready(function () {
+            $("#hello").on("click", whenTheBoxIsClicked);
+            $("#hello").on("mouseleave", whenTheMouseLeaves);
+
+            function whenTheBoxIsClicked() {
+                $("#hello").html("<strong><em>How you doin'</em></strong>?");
+            }
+
+            function whenTheMouseLeaves() {
+                $("#hello").html("<h1>You going so soon?</h1>")
+            }
+        })
+    </script>
+    <style>
+        #hello {
+            height: 150px;
+            width: 280px;
+            border: 1pt solid black;
+            margin: 100px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="hello">Hey there!</div>
+</body>
+
+</html>
