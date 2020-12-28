@@ -1,0 +1,119 @@
+<!--learning bootstrap-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- CSS only -->
+<link href="../../../../../usr/local/lib/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--everything in the head part is not shown to the user, it is a part which the search engine uses to search for pages, do SEO from here-->
+<!--use hyphens instead of underscore, underscores treat the whole series of alphabets as a single word whereas hyphens separate them-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="hello">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <title>
+        Learning bootstrap
+    </title>
+</head>
+<!--while writing a code, make sure that you use tags like strong and emphasis instead of bold and italics, <strong>\&<em> and not <b>\&<i>-->
+<style>
+    #map {
+        height: 100%;
+    }
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<!-- JavaScript Bundle with Popper -->
+<script src="../../../../../usr/local/lib/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+</script>
+<script>
+    function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+            center: {
+                lat: -34.397,
+                lng: 150.644,
+            },
+            zoom: 8,
+        });
+    }
+</script>
+
+
+<body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand">Learning Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--img src="hello.jpg" class="rounded-bottom img-fluid img-thumbnail" alt=""-->
+    <div>
+        <button type="button" class="btn-primary">Let's
+            say</button>
+    </div>
+
+    <footer class="py-5 bg-dark fixed-bottom">
+        <div class="container">
+            <p class="m-0 text-center text-white">
+                <marquee behavior="slide" direction="left"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quod quas ducimus quo error assumenda minima
+                    facilis iusto tenetur porro quibusdam, magnam libero soluta laborum, est corporis nulla enim?
+                    Ducimus,
+                    porro.
+                </marquee>
+            </p>
+        </div>
+    </footer>
+
+    <div class="container" id="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carimages" data-slide-to="0" class="active"></li>
+            <li data-target="#carimages" data-slide-to="1"></li>
+            <li data-target="#carimages" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="hello.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="hello.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="hello.jpg" alt="">
+            </div>
+        </div>
+        <a href="#carimages" class="carousel-control-prev" data-slide-to="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#carimages" class="carousel-control-next" data-slide-to="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</body>
+
+</html>
