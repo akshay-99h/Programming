@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='stylesheet' href='../bootstrap/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='../dashicons/dashicons.css'>
+<link rel='stylesheet' href='../devicons-master/css/devicons.min.css'>
+<link rel="stylesheet" href="../@mdi/font/css/materialdesignicons.min.css">
+
+<head>
+    <script src="../jquery/dist/jquery.min.js">
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effects</title>
+    <script>
+        $('document').ready(function () {
+            $('#fade-in').on('click', function () {
+                ($('#textBox').fadeIn(2000, function () {
+                    alert("I am done fading in.");
+                }));
+            });
+
+            $('#fade-out').on('click', function () {
+                ($('#textBox').fadeOut("slow", function () {
+                    alert("I am done fading out.");
+                }));
+            });
+        });
+    </script>
+    <style>
+        #textBox {
+            border: solid 1pt black;
+            margin: 100px;
+            margin-top: 50px;
+            padding: 20px;
+        }
+
+        button {
+            margin: 75px;
+            margin-left: 300px;
+            width: 100px;
+        }
+
+        #fade-out {
+            color: white;
+        }
+
+        #fade-in {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="btn btn-primary"><a href="#"><span class="dashicons dashicons-hidden"
+                id="fade-out"></span></a></button>
+    <button class="btn btn-primary"><a href="#"><span class="dashicons dashicons-desktop"
+                id="fade-in"></span></a></button>
+    <div id="textBox">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam modi eos reiciendis fugiat illo.
+            Deleniti
+            accusamus iure dignissimos amet cum voluptatum dolorem sed delectus facilis molestiae. Commodi blanditiis
+            fuga
+            suscipit?
+        </p>
+    </div>
+</body>
+
+</html>

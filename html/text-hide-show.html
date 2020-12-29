@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='stylesheet' href='../bootstrap/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='../dashicons/dashicons.css'>
+
+<head>
+    <script src='../jquery/dist/jquery.min.js'>
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+
+<script>
+    $("document").ready(function () {
+        $("#show").on("click", function () {
+            ($("#lipsum").show());
+        });
+        $("#hide").on("click", function () {
+            ($("#lipsum").hide());
+        });
+    })
+</script>
+
+<style>
+    button {
+        margin-right: 50px;
+        margin-left: 75px;
+        width: 100px;
+    }
+
+    p {
+        width: 500px;
+    }
+
+    #hide {
+        color: white;
+    }
+
+    #show {
+        color: white;
+    }
+
+    .box {
+        border: solid 1pt #bbbaba;
+        padding: 50px;
+        width: 600px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    #lipsum {
+        margin-top: 50px;
+    }
+</style>
+
+<body>
+    <form class="box container-fluid img-fluid">
+        <button class="btn btn-primary"><a href="#"><span class="dashicons dashicons-hidden"
+                    id="hide"></span></a></button>
+        <button class="btn btn-primary"><a href="#"><span class="dashicons dashicons-desktop"
+                    id="show"></span></a></button>
+        <div id="lipsum">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus et voluptate! Quisquam fuga
+                ad
+                tempora, ut aliquam nihil atque alias doloremque accusamus minima nobis incidunt, ducimus maxime? Rerum,
+                praesentium.
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>
