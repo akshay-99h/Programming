@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='stylesheet' href='../androidicons-1.0/iconfont/css/androidicons.css'>
+<link rel='stylesheet' href='../dashicons/dashicons.css'>
+<link rel="stylesheet" href="../mdi/css/materialdesignicons.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Slide</title>
+    <script src='../jquery/dist/jquery.min.js'>
+    </script>
+    <script>
+        $('document').ready(function () {
+            $("#toggle").click(function () {
+                $("#textBox").toggle(500, "swing");
+            });
+        });
+    </script>
+    <style>
+        span {
+            margin-left: 250px;
+        }
+
+        p {
+            width: 250px;
+            border: 1pt solid black;
+            margin: 50px;
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><a href="#"><span id="toggle" class="mdi mdi-toggle-switch"></span></a></h1>
+    <div>
+        <p id="textBox"> ipsum dolor sit, amet consectetur adipisicing
+            elit.Aliquid soluta nihil
+            possimus perferendis
+            quis in rem
+            obcaecati veniam!Ratione, placeat ipsam unde suscipit sed labore veritatis fugiat consectetur
+            voluptas
+            nihil.Lorem ipsum dolor sit amet consectetur adipisicing elit.At eos sunt rem fuga recusandae
+            pariatur aut
+            explicabo unde cupiditate modi repudiandae eveniet aliquid iste sit natus harum qui, corrupti
+            expedita!
+        </p>
+    </div>
+</body>
+
+</html>

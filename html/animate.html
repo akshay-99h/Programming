@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='stylesheet' href='../androidicons-1.0/iconfont/css/androidicons.css'>
+<link rel='stylesheet' href='../dashicons/dashicons.css'>
+<link rel="stylesheet" href="../mdi/css/materialdesignicons.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Slide</title>
+    <script src='../jquery/dist/jquery.min.js'>
+    </script>
+    <script>
+        $('document').ready(function () {
+            $("#big").click(function () {
+                $("#textBox").animate({
+                    fontSize: "30px"
+                }, 2000);
+            });
+            $("#many").click(function () {
+                $("#textBox").animate({
+                    fontSize: "20px",
+                    marginLeft: "400px",
+                    width: "500px",
+                    fontFamily: "sans-serif"
+                }, 5000);
+            });
+            $("#grow").click(function () {
+                $("#textBox").animate({
+                    width: "500px",
+                }, 2000);
+            });
+            $('#move').click(function () {
+                $('#textBox').animate({
+                    marginLeft: "1000pt"
+                }, 4000);
+            });
+        });
+    </script>
+    <style>
+        span {
+            margin: 10px;
+        }
+
+        #textBox {
+            width: 250px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 1pt solid black;
+            margin: 50px;
+            padding: 100px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#"><span class="dashicons dashicons-move" id="move"></span></a>
+    <a href="#"><span class="ai-grow" id="grow"></span></a>
+    <a href="#"><span class="ai-font-bigger" id="big"></span></a>
+    <a href="#"><span class="dashicons dashicons-groups" id="many"></span></a>
+    <div id="textBox">
+        <p> ipsum dolor sit, amet consectetur adipisicing
+            elit.Aliquid soluta nihil
+            possimus perferendis
+            quis in rem
+            obcaecati veniam!Ratione, placeat ipsam unde suscipit sed labore veritatis fugiat consectetur
+            voluptas
+            nihil.Lorem ipsum dolor sit amet consectetur adipisicing elit.At eos sunt rem fuga recusandae
+            pariatur aut
+            explicabo unde cupiditate modi repudiandae eveniet aliquid iste sit natus harum qui, corrupti
+            expedita!
+        </p>
+    </div>
+</body>
+
+</html>
