@@ -1,0 +1,60 @@
+{
+  "_from": "fab",
+  "_id": "fab@1.0.0-rc.8",
+  "_inBundle": false,
+  "_integrity": "sha512-5yLWz1Tqu63/oU+TmEtPOY7vF1xfHA/Uo5N1mm+QL5ZmXoONKhYJvqm82nDROy4QsO3+11CoZXkGuhwUqdrsBw==",
+  "_location": "/fab",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "fab",
+    "name": "fab",
+    "escapedName": "fab",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fab/-/fab-1.0.0-rc.8.tgz",
+  "_shasum": "90a40fa2a153f6e4ed29df6f704ae6c73f84a6e8",
+  "_spec": "fab",
+  "_where": "/Users/MACBOOK/Documents/akshay/Programming",
+  "author": {
+    "name": "Glen Maddern"
+  },
+  "bin": {
+    "fab": "fab.js"
+  },
+  "bugs": {
+    "url": "https://github.com/fab-spec/fab/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@fab/cli": "1.0.0-rc.7"
+  },
+  "deprecated": false,
+  "description": "An alias for @fab/cli",
+  "files": [
+    "/bin"
+  ],
+  "gitHead": "f7aede27d1e76682d12fc1c7b25708a1e5f72536",
+  "homepage": "https://github.com/fab-spec/fab#readme",
+  "keywords": [
+    "fab"
+  ],
+  "license": "MIT",
+  "main": "fab.js",
+  "name": "fab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fab-spec/fab.git"
+  },
+  "scripts": {
+    "clean": "rm -f package-lock.json",
+    "prepack": "cat PREAMBLE.md > README.md && cat ../cli/README.md >> README.md"
+  },
+  "version": "1.0.0-rc.8"
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"InvalidConfig.js","sourceRoot":"","sources":["../../src/errors/InvalidConfig.ts"],"names":[],"mappings":";;AAAA,wCAAgC;AAEhC,MAAa,kBAAmB,SAAQ,KAAK;IAC3C,YAAY,WAAmB,EAAE,CAAS;QACxC,KAAK,CAAC,8BAA8B,CAAC,CAAA;QAErC,IAAI,CAAC;YAAE,OAAO,CAAC,GAAG,CAAC,CAAC,CAAC,CAAA;QACrB,aAAG,CAAC,2CAA2C,WAAW,IAAI,CAAC,CAAA;IACjE,CAAC;CACF;AAPD,gDAOC"}

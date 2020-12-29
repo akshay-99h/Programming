@@ -1,0 +1,72 @@
+{
+  "_from": "el",
+  "_id": "el@0.2.3",
+  "_inBundle": false,
+  "_integrity": "sha1-TzYOxBbmzLLuvgJb/wsADAgA2z8=",
+  "_location": "/el",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "el",
+    "name": "el",
+    "escapedName": "el",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/el/-/el-0.2.3.tgz",
+  "_shasum": "4f360ec416e6ccb2eebe025bff0b000c0800db3f",
+  "_spec": "el",
+  "_where": "/Users/MACBOOK/Documents/akshay/Programming",
+  "author": {
+    "name": "Michael Rhodes"
+  },
+  "browser": "browser.js",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/el/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "detect-indent": "~0.1.3"
+  },
+  "deprecated": false,
+  "description": "DOM insertion that respects indentation.",
+  "devDependencies": {
+    "mkdom": "~1.0.1",
+    "tape": "~1.1.1"
+  },
+  "homepage": "https://github.com/michaelrhodes/el#readme",
+  "keywords": [
+    "dom",
+    "whitespace",
+    "indentation"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "el",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelrhodes/el.git"
+  },
+  "scripts": {
+    "test": "tape test/server/*.js"
+  },
+  "testling": {
+    "files": "test/browser/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/4..latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "version": "0.2.3"
+}

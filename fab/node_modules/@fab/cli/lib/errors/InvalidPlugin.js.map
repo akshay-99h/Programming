@@ -1,0 +1,1 @@
+{"version":3,"file":"InvalidPlugin.js","sourceRoot":"","sources":["../../src/errors/InvalidPlugin.ts"],"names":[],"mappings":";;AAAA,wCAAgC;AAEhC,MAAa,kBAAmB,SAAQ,KAAK;IAC3C,YAAY,WAAmB,EAAE,OAAe;QAC9C,KAAK,CAAC,kBAAkB,WAAW,eAAe,CAAC,CAAA;QAEnD,aAAG,CAAC,KAAK,CAAC,+BAA+B,WAAW,SAAS,OAAO,EAAE,CAAC,CAAA;IACzE,CAAC;CACF;AAND,gDAMC"}
