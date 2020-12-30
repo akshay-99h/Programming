@@ -16,7 +16,8 @@
     "fetchSpec": "latest"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.3.tgz",
   "_shasum": "c6a72b355aaf323920be800246a6e4ef30997fe6",

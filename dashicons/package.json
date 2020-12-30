@@ -16,7 +16,8 @@
     "fetchSpec": "latest"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/dashicons/-/dashicons-0.0.2.tgz",
   "_shasum": "bf883afff486a6a47c0fe863d1f7c86450f8dad5",

@@ -17,7 +17,8 @@
     "fetchSpec": "latest"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/@popperjs/core/-/core-2.6.0.tgz",
   "_shasum": "f022195afdfc942e088ee2101285a1d31c7d727f",
