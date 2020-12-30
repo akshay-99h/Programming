@@ -1,0 +1,47 @@
+{
+  "_from": "@iconify/icons-zmdi",
+  "_id": "@iconify/icons-zmdi@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-G7N93Ir9C9YeL3mKlr72yg75NgTzDfJ+XF4bQZ0vNl5xb7KQKTMkteA1gp2dcgof4GP9fm/yX2pqPLP4hFLBng==",
+  "_location": "/@iconify/icons-zmdi",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@iconify/icons-zmdi",
+    "name": "@iconify/icons-zmdi",
+    "escapedName": "@iconify%2ficons-zmdi",
+    "scope": "@iconify",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@iconify/icons-zmdi/-/icons-zmdi-1.1.0.tgz",
+  "_shasum": "d3e116139c3f7e0e05f5a6e8f1cbea090b9ace55",
+  "_spec": "@iconify/icons-zmdi",
+  "_where": "/Users/MACBOOK/Documents/akshay/Programming",
+  "bugs": {
+    "url": "https://github.com/iconify/iconify/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Iconify icon components for Material Design Iconic Font",
+  "homepage": "https://github.com/iconify/iconify",
+  "iconsSet": {
+    "name": "Material Design Iconic Font",
+    "author": {
+      "name": "MDI Community",
+      "url": "https://github.com/zavoloklom/material-design-iconic-font"
+    },
+    "license": {
+      "title": "Open Font License",
+      "spdx": "OFL-1.1",
+      "url": "http://scripts.sil.org/OFL"
+    }
+  },
+  "name": "@iconify/icons-zmdi",
+  "version": "1.1.0"
+}
