@@ -38,14 +38,14 @@
         <input type="button" value="CLICK ME" onclick="promptbox()">
     </form>
 
-    <script language="javascript" type="text/javascript" src="index.js">
+    <script language="javascript" type="text/javascript" src="../js/index.js">
     </script>
 
     <form border="1" align="center"><button onclick="alertbox()">Hello</button>
         <button onclick="myFunction()">Hey!</button>
-    </form>
+    </form><br><br>
 
-    <form border="1" align="center">
+    <form border="1" align="center" method="post">
         <label>
             <input type="radio" name="radio1" value="True" id="radio1.1"> True
         </label>
@@ -53,8 +53,20 @@
         <label>
             <input type="radio" name="radio1" value="False" id="radio1.2"> False
         </label>
+        <br><br>
+        <label>
+            <select name="security-question">
+                <option value="tada"></option>
+                <option value="option1" name="hello">
+                    What was your first pet name?
+                </option>
+                <option>
+                    What was your teacher's name?
+                </option>
+            </select>
+        </label>
     </form>
-
+    <br><br>
     <!--the following code is used for making tables in HTML where tr is for table row and td for table data-->
     <table border="1" align="center">
         <tr>
