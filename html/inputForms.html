@@ -25,7 +25,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-        A new document with hello world and other
+        A new document with special buttons and input forms
     </title>
 </head>
 
@@ -78,6 +78,37 @@
             <td>yola</td>
         </tr>
     </table>
+    <br><br>
+
+    <!--this method is used to create smart selection input forms with suggestions-->
+    <form style="text-align: center;">
+        <input list="technologies" name="tech">
+        <datalist id="technologies">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JS"></option>
+            <option value="Java"></option>
+            <option value="C++"></option>
+            <option value="Git"></option>
+            <option value="React"></option>
+            <option value="Redux"></option>
+            <option value="Python"></option>
+            <option value="Angular"></option>
+        </datalist>
+    </form>
+    <!--this method is used to create smart selection input forms with suggestions-->
+
+    <br><br>
+
+    <!--this method is used for reset and submission buttons-->
+    <form method="POST">
+        <label for="Username">Username:<input type="text"></label>
+        <label for="Password">Password:<input type="password"></label><br>
+        <label for="End date">Retirement date:<input type="date" name="date" min="2020-01-01"></label>
+        <label for="Start date">Date of enrollment:<input type="date" name="date" max="2000-01-01"></label><br>
+        <input type="submit" value="Submit" onclick="confirm('Are you sure')">
+        <input type="reset" value="Reset">
+    </form>
 
     <p class="sampleText">
         <!-- the modifier or parameter class which is used over here is for the purpose of using the me-defined class sampleText in this scope-->
