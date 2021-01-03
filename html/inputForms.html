@@ -55,7 +55,7 @@
         </label>
         <br><br>
         <label>
-            <select name="security-question">
+            <select name="security-question" multiple>
                 <option value="tada"></option>
                 <option value="option1" name="hello">
                     What was your first pet name?
@@ -100,14 +100,18 @@
 
     <br><br>
 
-    <!--this method is used for reset and submission buttons-->
+    <!--this method is used for reset and submission buttons, it also includes some great attributes-->
     <form method="POST">
-        <label for="Username">Username:<input type="text"></label>
-        <label for="Password">Password:<input type="password"></label><br>
+        <label for="email">Email:<input type="email" value="Name" placeholder="Enter your EMAIL" autofocus
+                required></label>
+        <label for="Password">Password:<input type="password" placeholder="Enter you password" required
+                minlength="8"></label><br>
         <label for="End date">Retirement date:<input type="date" name="date" min="2020-01-01"></label>
         <label for="Start date">Date of enrollment:<input type="date" name="date" max="2000-01-01"></label><br>
-        <input type="submit" value="Submit" onclick="confirm('Are you sure')">
-        <input type="reset" value="Reset">
+        <label for="Image/PDF">Select your image or PDF <input type="file" name="Image/PDF"
+                class="btn btn-secondary"></label>
+        <input type="submit" value="Submit" onclick="confirm('Are you sure')" class="btn btn-primary">
+        <input type="reset" value="Reset" class="btn btn-primary">
     </form>
 
     <p class="sampleText">
