@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../css/formsPracticeProblems.css">
+<link rel='stylesheet' href='../../bootstrap/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='../../dashicons/dashicons.css'>
+<link rel="stylesheet" href="../../@mdi/font/css/materialdesignicons.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Project form</title>
+</head>
+
+<body id="body">
+    <form id="form" method="POST">
+        <h1 id="heading">Register</h1>
+        <div id="socialWrapper">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-512.png" alt="Google"
+                class="socialIcon">
+            <img src="https://www.expectmorearizona.org/wp-content/uploads/2016/11/facebook-png-icon-follow-us-facebook-1.png"
+                alt="Facebook" class="socialIcon">
+            <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="Github" class="socialIcon">
+            <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="Linkedin" class="socialIcon">
+        </div>
+        <div id="inputWrapper">
+            <div>
+                <span class="dashicons dashicons-nametag"></span><input type="text" name="username"
+                    placeholder="Username" class="inputBox" required>
+            </div>
+            <div>
+                <span class="dashicons dashicons-email"></span><input type="email" name="email" placeholder="Email"
+                    class="inputBox" required>
+            </div>
+            <div>
+                <span class="mdi mdi-form-textbox-password"></span><input type="password" name="" placeholder="Password"
+                    class="inputBox" required>
+            </div>
+            <div>
+                <span class="mdi mdi-form-textbox-password"></span><input type="password" name="confirm-password"
+                    placeholder="Confirm Password" class="inputBox" required>
+            </div>
+            <button onclick="confirm('Are you sure?')" class="btn btn-primary">Register</button>
+        </div>
+    </form>
+</body>
+
+</html>

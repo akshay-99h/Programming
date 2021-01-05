@@ -1,0 +1,37 @@
+.brand {
+  font-weight: bold;
+  color: white;
+}
+
+.brand:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.navigation {
+  background-color: rgb(18, 90, 223);
+  color: white;
+}
+
+a:hover {
+  font-weight: bold;
+  opacity: 70%;
+}
+
+.active-link {
+  color: rgba(255, 255, 255, 0.733);
+  font-weight: bolder;
+  text-shadow: 10pt solid rgb(0, 0, 0);
+}
+
+.active-link:hover {
+  color: rgba(255, 255, 255, 0.466);
+  font-weight: bolder;
+}
+
+.img {
+  height: 150px;
+  width: 300px;
+  margin: 40px;
+}

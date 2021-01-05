@@ -1,0 +1,49 @@
+.socialIcon {
+  width: 50px;
+  height: 50px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+#body {
+  background-color: #f2f6ff;
+  margin: 0;
+}
+#form {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: white;
+  width: 700px;
+  border: 1pt solid #cccccc;
+}
+
+#heading {
+  padding-bottom: 32px;
+  padding-top: 52px;
+  font-size: 32px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#socialWrapper {
+  background-color: #e7eaf1;
+  padding: 24px;
+}
+
+#inputWrapper {
+  padding: 80px;
+  padding-bottom: 40px;
+}
+
+.inputBox {
+  border: none;
+  margin: 10px;
+  font-size: 18px;
+  padding-bottom: 12px;
+  margin-bottom: 36px;
+  border-bottom: 1px solid #cccccc;
+  width: 90%;
+}
