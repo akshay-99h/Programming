@@ -1,0 +1,6 @@
+[submodule "node_modules/git-emoji/f27be4555efc145526517dc5efe0b12d"]
+	path = node_modules/git-emoji/f27be4555efc145526517dc5efe0b12d
+	url = https://gist.github.com/KorayUlusan/f27be4555efc145526517dc5efe0b12d
+[submodule "projects/Practical-Files"]
+	path = projects/Practical-Files
+	url = https://github.com/akshay-99h/Practical-Files

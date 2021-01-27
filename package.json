@@ -1,0 +1,50 @@
+{
+  "name": "programming",
+  "version": "1.0.0",
+  "description": "Contains all the programming files",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.8.8",
+    "el": "^0.2.3",
+    "express": "^4.17.1",
+    "dashicons": "^0.0.2",
+    "devicons-master": "^1.8.0",
+    "bootstrap": "^4.5.3",
+    "font-awesome": "^4.7.0",
+    "fab": "^1.0.0-rc.8",
+    "fas": "^0.3.6",
+    "far": "^0.0.7",
+    "gulp": "^4.0.2",
+    "mdi": "^2.2.43",
+    "ion": "^1.0.1",
+    "ionicons": "^5.2.3",
+    "nodemon": "^2.0.6",
+    "jshint": "^2.12.0",
+    "node.js": "^0.0.1-security",
+    "nvm": "^0.0.4",
+    "npm": "^6.14.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "popper.js": "^1.16.1",
+    "slideshow": "^1.0.4",
+    "yo": "^3.1.1",
+    "yarn": "^1.22.10",
+    "st": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshay-99h/programming.git"
+  },
+  "author": "Akshay Prabhat Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshay-99h/programming/issues"
+  },
+  "homepage": "https://github.com/akshay-99h/programming#readme"
+}
