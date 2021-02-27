@@ -1,0 +1,18 @@
+header {
+  height: 40px;
+  background-color: lightblue;
+}
+
+body {
+  margin: 0%;
+}
+
+aside {
+  height: 40px;
+  background-color: lightcoral;
+}
+
+footer {
+  height: 300px;
+  background-color: lightgrey;
+}
