@@ -4,3 +4,6 @@
 [submodule "projects/Practical-Files"]
 	path = projects/Practical-Files
 	url = https://github.com/akshay-99h/Practical-Files
+[submodule "john"]
+	path = john
+	url = https://github.com/openwall/john
