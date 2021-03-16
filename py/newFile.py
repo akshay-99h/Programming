@@ -1,11 +1,11 @@
 #new course not the previous one
 
-text="""This is a 
-multiple line text
-message that I have
-written"""
+a=int(input("Enter the value of the first number: "))
+b=int(input("Enter the second number: "))
 
-print(text)
-
-newText=text.replace("text","..")
-print(newText)
+print(a,"*",b,"=",a*b)
+print(a,"/",b,"=",a/b)
+print(a,"//",b,"=",a//b)
+print(a,"+",b,"=",a+b)
+print(a,"-",b,"=",a-b)
+print(a,"%",b,"=",a%b)
