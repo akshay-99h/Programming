@@ -118,6 +118,5 @@ int main()
         printf("Wrong value entered. Program terminating...\n\n");
         exit(0);
     }
-
     return 0;
 }
