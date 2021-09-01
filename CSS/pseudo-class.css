@@ -1,0 +1,37 @@
+.input-item:hover
+{
+    background-color: rgba(255,255,0,0.4);
+}
+
+.body-whole{
+    background-color: lightblue;
+    margin-bottom: auto;
+}
+
+form{
+    margin-left: 20%;
+    padding: 5%;
+    margin-right: 20%;
+    margin-bottom: 20pt;
+    background-color: white;
+    border: 1pt solid gray;
+    border-radius: 2%;
+    box-shadow: 0pt 2pt lightgray;
+}
+
+.input-item:focus:required{
+    color: lightblue;
+}
+
+.input-item:disabled{
+    cursor: not-allowed;
+}
+
+.input-item{
+    border-radius: 2%;
+    align-items: center;
+}
+
+#btn{
+    margin-left: 30%;
+}
