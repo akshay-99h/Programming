@@ -1,3 +1,8 @@
+# Program to perform linear search and binary search on an array
+
+## by Akshay Prabhat Mishra
+
+```c
 #include <stdio.h>
 
 void linear()
@@ -94,3 +99,56 @@ int	main()
 
     return 0;
 }
+```
+
+## Output
+
+### Linear Search
+
+```bash
+abc@ABCs-MacBook-Pro Repos % cd "/Users/abc/Documents/Repos/Programming/c/" && gcc searching.c -o searching && "/Users/abc/Documents/Repos/Programming/c/"searching
+
+
+         Select the operation:
+ 1. Linear search
+ 2. Binary search
+
+
+Select your choice(1/2): 1
+ Enter the number of elements you want in the array: 5
+
+ Enter the elements in the array: 23
+6
+25
+876
+2
+
+ Enter the element you want to find the position of: 2
+ Element is found at position 5
+```
+
+### Binary Search
+
+```bash
+cd "/Users/abc/Documents/Repos/Programming/c/" && gcc searching.c -o searching && "/Users/abc/Documents/Repos/Programming/c/"searching
+
+
+         Select the operation:
+ 1. Linear search
+ 2. Binary search
+
+
+Select your choice(1/2): 2
+ Enter the number of elements you want in the array: 7
+
+ Enter the elements in the array: 7
+12
+14
+16
+19
+24
+45
+
+ Enter the element you want to find the position of: 19
+ Element is found at position 5
+```
