@@ -1,8 +1,15 @@
+# Practical 2a
+
+## Insertion and Deletion by Akshay Prabhat Mishra
+
+### Sourcecode
+
+```c
 #include<stdio.h>
 
 int main()
 {   
-    int i,n,k,l,t,b,D,num;
+    int i,k,l,t,b,D,num;
     printf("Enter the number of elements you want in the array: ");
     scanf("%d",&num);
     int a[100];
@@ -16,7 +23,7 @@ int main()
     while (flag!=2)
     {
     printf("Select you choice:\n" );
-    printf("1) Insertion.\n ");
+    printf("1) Insertion and\n");
     printf("2) Deletion.\n");
     scanf("%d",&b);
      switch(b)
@@ -37,13 +44,12 @@ int main()
             printf("\nEnter the element which you want to delete:\n");
             scanf("%d",&D);
             for(i=0;i<=num;i++)
-            {  
-                if(a[i]==D)
-                {
+            {  if(a[i]==D)
+               {
                   k  = i +1;
-                };
+               };
             };
-            for(i=k;i!=n;i++)
+            for(i=k;i!=num;i++)
             {
               a[i]= a[i+1];
             };
@@ -58,3 +64,37 @@ int main()
     flag++;
     }
 }
+```
+
+### Output
+
+```py
+Enter the number of elements you want in the array: 4
+write the element at position 1: 23
+write the element at position 2: 43
+write the element at position 3: 56
+write the element at position 4: 13
+Select you choice:
+1) Insertion and
+2) Deletion.
+1
+
+Enter the desired element and its position: 27 2
+23
+27
+43
+56
+13
+Select you choice:
+1) Insertion and
+2) Deletion.
+2
+
+Enter the element which you want to delete:
+13
+Array after deletion: 
+23
+27
+43
+56
+```
